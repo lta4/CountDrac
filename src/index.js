@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {GlobalState} from "./GlobalState";
 
 ReactDOM.render(
+  <GlobalState>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </GlobalState>,
   document.getElementById('root')
 );
 
