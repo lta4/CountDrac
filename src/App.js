@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import ExtraLayer from './components/ExtraLayer';
 
 function App() {
   return (
     <div className="App">
-      <ExtraLayer />
+      <h1>Counts' Counter</h1>
+        <div>
+          <ExtraLayer />
+        </div>
     </div>
   );
 }

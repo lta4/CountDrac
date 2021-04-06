@@ -19,6 +19,16 @@ const reducer = (state, action) => {
             return newState
             break
 
+        case "multiply":
+            newState = {...state, counter: state.counter * payload}
+            return newState
+            break
+
+        case "divide":
+            newState = {...state, counter: state.counter / payload}
+            return newState
+            break
+
         default: return state
     }
 }
