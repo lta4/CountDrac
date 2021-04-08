@@ -7,7 +7,7 @@ const Nav = (props) => {
             <Link to="/">
                 <div className="one"></div>
             </Link>
-            <h1>Nav Bar</h1>
+            <h1 className="navBar">Nav Bar</h1>
         </div>
     )
 }

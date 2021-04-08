@@ -4,10 +4,15 @@
 .App {
   text-align: center;
   background-color: lightblue;
+  font-family: 'New Tegomin', serif;
 }
 
 .nav {
   background-color: cornflowerblue;
+}
+
+.navBar {
+  margin: 0;
 }
 
 .foot {
