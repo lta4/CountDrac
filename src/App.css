@@ -15,6 +15,10 @@
   margin: 0;
 }
 
+.button:hover {
+  background-color: greenyellow;
+}
+
 .foot {
   background-color: cornflowerblue;
 }
