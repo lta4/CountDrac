@@ -11,8 +11,9 @@ const Counter = (props) => {
         <button onClick={() => contextData.dispatch({type: "add", payload: 2})}>Add Two</button>
         <button onClick={() => contextData.dispatch({type: "subtract", payload: 1})}>Subtract One</button>
         <button onClick={() => contextData.dispatch({type: "subtract", payload: 2})}>Subtract Two</button>
-        <button onClick={() => contextData.dispatch({type: "multiply", payload: 2})}>Multiply</button>
-        <button onClick={() => contextData.dispatch({type: "divide", payload: 2})}>Divide</button>
+        <button onClick={() => contextData.dispatch({type: "multiply", payload: 2})}>Multiply Two</button>
+        <button onClick={() => contextData.dispatch({type: "multiply", payload: 0})}>Multiply Zero</button>
+        <button onClick={() => contextData.dispatch({type: "divide", payload: 2})}>Divide Two</button>
     </div>
 }
 
