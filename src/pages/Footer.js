@@ -4,7 +4,7 @@ const Footer = (props) => {
     return (
         <div
             className="foot">
-            <a href="#top">Top of Page</a>
+            <a href="#top" className="footLink">Top of Page</a>
         </div>
     )
 }

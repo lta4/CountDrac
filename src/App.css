@@ -5,10 +5,11 @@
   text-align: center;
   background: linear-gradient(to right,#20002c, #cbb4d4);
   font-family: 'New Tegomin', serif;
+  color: white;
 }
 
 .nav {
-  background-color: cornflowerblue;
+  background-color: #49a09d;
 }
 
 .navBar {
@@ -16,11 +17,15 @@
 }
 
 .button:hover {
-  background-color: greenyellow;
+  background-color: #49a09d;
 }
 
 .foot {
-  background-color: cornflowerblue;
+  background-color: #49a09d;
+}
+
+.footLink {
+ text-decoration: none;
 }
 
 
