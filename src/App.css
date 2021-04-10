@@ -1,9 +1,9 @@
-/* .html {
-} */
+.html {
+}
 
 .App {
   text-align: center;
-  background-color: lightblue;
+  background: linear-gradient(to right,#20002c, #cbb4d4);
   font-family: 'New Tegomin', serif;
 }
 
