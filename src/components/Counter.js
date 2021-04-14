@@ -5,9 +5,9 @@ const Counter = (props) => {
 
     const contextData = useGlobalState()
 
-    return <div>
+    return <div className="buttons">
         <h1>{contextData.state.counter}</h1>  
-        <button onClick={() => contextData.dispatch({type: "add", payload: 1})} className="buttonOne" id="one">Add 1</button>
+        <button onClick={() => contextData.dispatch({type: "add", payload: 1})} className="button" id="one">Add 1</button>
         <button onClick={() => contextData.dispatch({type: "add", payload: 2})} className="button">Add 2</button>
         <button onClick={() => contextData.dispatch({type: "subtract", payload: 1})} className="button">Subtract 1</button>
         <button onClick={() => contextData.dispatch({type: "subtract", payload: 2})} className="button">Subtract 2</button>

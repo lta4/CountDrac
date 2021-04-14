@@ -15,8 +15,8 @@ function App() {
         </div>
       <h2>Hello</h2>
       <h3>to the</h3>
-      <h4>captain america</h4>
-      <Footer className="footer" />
+      <h3>captain america</h3>
+      <Footer className="foot" />
     </div>
   );
 }
