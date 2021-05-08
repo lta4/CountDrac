@@ -1,6 +1,6 @@
 import React from "react"
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <div>
             <h2 className="footContainer"><a href="#top" className="footLink">Top of Page</a></h2>

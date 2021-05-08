@@ -1,9 +1,13 @@
-.App {
+/* .html {
+  height: 100vh;
+} */
+
+.wrapper {
   text-align: center;
   background: linear-gradient(to right,#20002c, #cbb4d4);
   font-family: 'New Tegomin', serif;
   color: white;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .nav {

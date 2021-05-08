@@ -7,8 +7,10 @@ import ExtraLayer from './components/ExtraLayer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
       <Nav className="navRoute" />
+      <Switch>
+        <Route>
       <h1>Counts' Counter</h1>
         <div>
           <ExtraLayer />
@@ -16,7 +18,9 @@ function App() {
       <h2>Hello</h2>
       <h3>to the</h3>
       <h3>captain america</h3>
-      <Footer className="foot" />
+      </Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }
