@@ -2,7 +2,7 @@ import React from "react"
 import { Route, Switch } from "react-router-dom"
 import './App.css';
 import Nav from "./components/Nav.js";
-import Footer from "./pages/Footer.js"
+import Footer from "./pages/Footer.js";
 import ExtraLayer from './components/ExtraLayer';
 
 function App() {

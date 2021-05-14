@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+.aboutLink {
+  text-decoration: none;
+}
+
 .buttons {
   filter: drop-shadow(3px 10px 15px rgba(0, 0, 0, 0.45));
 }

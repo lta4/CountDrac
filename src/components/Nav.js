@@ -1,5 +1,6 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
+import About from "../pages/About.js";
 
 const Nav = (props) => {
     console.time("timer-1")
@@ -17,6 +18,9 @@ const Nav = (props) => {
                 <div className="one"></div>
             </Link>
             <h1 className="navBar">Nav Bar</h1>
+            <Link to="/about">
+                <h2 className="aboutLink">About</h2>
+            </Link>
         </div>
     )
 }
