@@ -2,12 +2,13 @@ import React from "react"
 import { Route, Switch } from "react-router-dom"
 import './App.css';
 import Nav from "./components/Nav.js";
+import About from "./pages/About";
 import Footer from "./pages/Footer.js";
 import ExtraLayer from './components/ExtraLayer';
 
 function App() {
   return (
-    <div className="wrapper">
+    <div className="App">
       <Nav className="navRoute" />
       <Switch>
         <Route>
@@ -18,6 +19,9 @@ function App() {
       <h2>We do the counting for you!</h2>
       <h3>Follow the storyline</h3>
       <h3>Postgres backend with storyline!</h3>
+      </Route>
+      <Route path="/About">
+        <About className="aboutRoute" />
       </Route>
       </Switch>
       <Footer />
