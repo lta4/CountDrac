@@ -1,5 +1,6 @@
-.html {
+html {
   height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -13,8 +14,12 @@
   background-color: #49a09d;
 }
 
-.navBar {
+.navTitle {
   margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
 }
 
 .aboutLink {
