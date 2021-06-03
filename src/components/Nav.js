@@ -13,10 +13,12 @@ const Nav = (props) => {
 
     return (
         <div className="nav">
-            <Link to="/">
+            {/* <Link to="/">
                 <div className="one"></div>
+            </Link> */}
+            <Link to="/">
+                <h1 className="navBar">Nav Bar</h1>
             </Link>
-            <h1 className="navBar">Nav Bar</h1>
             <Link to="/About">
                 <h2 className="aboutLink">About</h2>
             </Link>
