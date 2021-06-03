@@ -5,7 +5,6 @@ import Nav from "./components/Nav.js";
 import About from "./pages/About";
 import Footer from "./pages/Footer.js";
 import Main from "./pages/Main";
-// import ExtraLayer from './components/ExtraLayer';
 
 function App() {
   return (
