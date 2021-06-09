@@ -9,7 +9,7 @@ const Card = () => {
 
     return (
         <div className="Card">
-            <div className="uppder-container">
+            <div className="upper-container">
                 <div className="image-container">
                     <img src=" " alt='' height="100px" width="100px" />
                 </div>
@@ -18,6 +18,7 @@ const Card = () => {
                 <h3> { name } </h3>
                 <h4> { job } </h4>
                 <p> { about } </p>
+                <button>Visit Profile</button>
             </div>
         </div>
     )
