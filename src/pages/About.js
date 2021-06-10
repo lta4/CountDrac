@@ -9,7 +9,6 @@ const About = () => {
     
     return (
         <div>
-            <h1>Hello About</h1>
             <Card name={ 'Andrew Arias' } job={ 'Full Stack Developer' } about= { about }/>
         </div>
     );
