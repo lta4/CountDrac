@@ -16,7 +16,7 @@ const Card = ({ name, job, about }) => {
                     <h4> { job } </h4>
                     <p> { about } </p>
                     <div className="aboutButtonContainer">
-                    <button className="aboutButton">Visit Profile</button>
+                    <button className="aboutButton"><a href="https://github.com/lta4" target="_blank" className="aboutLink">Visit Profile</a></button>
                     </div>
                 </div>
             </div>
